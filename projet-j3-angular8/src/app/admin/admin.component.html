@@ -1,0 +1,27 @@
+<div class="nav-side-menu">
+    <div class="brand">Store E-books</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="#">
+                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                  </a>
+                </li>
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                  <a href="#"><i class="fa fa-globe fa-lg"></i> Admin <span class="arrow"></span></a>
+                  <ul class="sub-menu collapse" id="service">
+                    <li><a routerLink="/admin/users" class="dropdown-item">Users</a></li>
+                    <li><a routerLink="/admin/books" class="dropdown-item">Books</a></li>
+                  </ul>
+                </li>  
+                
+                  <li><a  routerLink="/shop"  >Shop</a></li>
+                  <li><a  routerLink="/shop"  >Logout</a></li>
+
+            </ul>
+     </div>
+    </div>
+    
